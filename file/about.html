@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(smoke.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content {
+            display: flex;
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+            max-width: 1000px;
+            max-height: fit-content;
+            width: 100%;
+            height: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .text-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .image-section {
+            flex: 1;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .image-section img {
+            width: 250px;
+            height: 250px;
+            padding: 2px;
+            border-radius: 10%;
+            object-fit: cover;
+
+        }
+        .heading {
+            background: #1d1a19;
+            padding: 10px 20px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+      
+        
+        .btn{
+          background: #3c2b25;
+          padding: 10px 20px;
+          color: white;
+          border-color: rgb(200, 69, 224);
+          font-weight: bold;
+          display: inline-block;
+      }
+        .text-section p {
+            padding: 50px;
+            margin: 15px 0;
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .text-section button {
+            background: #4d7f7a;
+            color: white;
+            padding: 10px 15px;
+            border-color: rgb(88, 193, 207);
+            cursor: pointer;
+        }
+        .name {
+            position: absolute;
+            bottom: 20px;
+            padding: 30px;
+            color: rgb(255, 254, 254);
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .text-section h2 {
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: bold;
+          color: #ffffff;
+          
+        }
+        
+
+    </style>
+</head>
+<body>
+  
+    <div class="container">
+        <div class="content">
+            <div class="text-section">
+              <a href="portfolio.html"><button type="button" class="btn btn-secondary btn-sm"><</button></a>
+                <div class="heading">ABOUT ME</div>
+                
+                <p><h2>Full Name: Kayla Maco Tizon
+                  <br>
+                       Age: 20
+                       <br>
+                       Birthdate: June 12, 2004
+                       <br>
+                       Zodiac: Gemini
+                       <br>
+                       Status: Single
+                       <br>
+
+                       
+
+                </h2></p>
+               
+              
+            </div>
+            <div class="image-section">
+                <img src="kayla.jpg" alt="Mira Morrison">
+                <div class="name">KAYLA TIZON</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pets</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+          background-image: url(heart.gif);
+          background-repeat: no-repeat;
+          background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            width: 100%;
+            padding: 100px;
+            max-width: 1200px;
+        }
+        .container img {
+            width: 100%;
+            height: 100%%;
+            border-radius: 10px;
+        }
+        .text {
+            grid-column: span 2;
+            text-align: left;
+            font-size: 5rem;
+            font-weight: bold;
+            font-size: 80px;
+        }
+        .back-home-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease; /* Add transition for smooth effect */
+            background-color: rgb(33, 33, 33);
+            color: aliceblue;
+          }
+          
+          .back-home-button:hover {
+            background-color: #7b5d5d; /* Change background color on hover */
+            cursor: pointer; /* Change cursor to pointer */
+          }
+          .back-home-button:hover {
+            border: 1px solid rgb(133, 28, 28);
+          }
+          .back-home-button:hover {
+            box-shadow: 2px 2px 5px rgba(201, 16, 16, 0.3);
+          }
+          .back-home-button:hover {
+            transform: scale(1.1); /* Increase size by 10% */
+          }
+          .back-home-button {
+            position: absolute; /* Or position: relative; if you want to position it relative to the container */
+            top: 124px; /* Adjust this value to move it vertically */
+            left: 250px; /* Adjust this value to move it horizontally */
+            /* Add other styles as needed */
+          }
+           
+          </style>
+          </head>
+          <body>
+            
+            <a href="interests.html" class="back-home-link"><button class="back-home-button">BACK</button></a>
+          
+    <div class="container">
+        <div class="text">I LOVE MY PET <br> SACHI AND HARU</div>
+        <img src="cat1.jpg" alt="1">
+        <img src="pet2.jpg" alt="2">
+        <img src="pet3.jpg" alt="3">
+        <img src="pet4.jpg" alt="4">
+        <img src="pet5.jpg" alt="5">
+        <img src="pet6.jpg" alt="6">
+    </div>
+</body>
+</html>

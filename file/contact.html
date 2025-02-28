@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - [Your Website Name]</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(black1.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 500px;
+            margin: 50px auto;
+            background-color: grey;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        button {
+            background-color:rgb(24, 29, 34);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        .back-home-button {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          padding: 10px 20px;
+          font-size: 16px;
+          transition: background-color 0.3s ease; /* Add transition for smooth effect */
+          background-color: rgb(33, 33, 33);
+          color: aliceblue;
+        }
+        
+        .back-home-button:hover {
+          background-color: #7b5d5d; /* Change background color on hover */
+          cursor: pointer; /* Change cursor to pointer */
+        }
+        .back-home-button:hover {
+          border: 1px solid rgb(133, 28, 28);
+        }
+        .back-home-button:hover {
+          box-shadow: 2px 2px 5px rgba(201, 16, 16, 0.3);
+        }
+        .back-home-button:hover {
+          transform: scale(1.1); /* Increase size by 10% */
+        }
+        .back-home-button {
+          position: absolute; /* Or position: relative; if you want to position it relative to the container */
+          top: 124px; /* Adjust this value to move it vertically */
+          left: 250px; /* Adjust this value to move it horizontally */
+          /* Add other styles as needed */
+        }
+        .contact-section {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .contact-section p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 1px 5px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+  <a href="portfolio.html" class="back-home-link"><button class="back-home-button">BACK HOME</button></a>
+
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="contact-section">
+        <p>Kindly Contact me Here</p>
+        <a href="YOUR_FACEBOOK_PROFILE_LINK" target="_blank"><img src="facebook (1).png" alt="Facebook"></a>
+        <br>
+        <a href="YOUR_INSTAGRAM_PROFILE_LINK" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayla Tizon - Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-image: url(smoke.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .sidebar {
+            background-color: #242324;
+            color: white;
+            width: 250px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 200%;
+        }
+
+        .profile-image img {
+            width: 300px;
+            height: 300px;
+            border-radius: 40%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            padding: 100px;
+            position: absolute;
+            top: 50px; /* Adjust distance from the top */
+            right: 100px; /* Distance from the right */
+
+        }
+        .profile-image Kayla Tizon {
+        color: azure;
+        }
+
+        .nav ul {
+            list-style: none;
+            padding: 100px ;
+            margin-left: 0%;
+            padding-left: 32px;
+
+          
+            
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: rgb(11, 9, 9);
+            display: block;
+            padding: 20px 0;
+            width: 150%;
+            text-align: center;
+           background-color: #bcaeaf; /* Or any highlight color */
+           border-radius: 50px;
+           font-weight: bold;
+           font-family:Georgia, 'Times New Roman', Times, serif;
+          
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: baseline;
+            float: right;
+            text-align: left;
+            font-size: 2rem;
+            color: azure;
+            
+        }
+
+        .intro h1 {
+            margin: 20;
+        }
+
+        .name {
+            color: #ffffff;
+            font-size: 2.5em;
+        }
+
+        .actions .button {
+            background-color: #3e3a3a;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .social-links img {
+            width: 30px;
+            margin-right: 20px;
+            padding: 50px 20px;
+        }
+        .nav ul li a {
+            color: #333;
+            text-decoration: none;
+            
+          }
+          
+          .nav ul li a:hover {
+            color: white; /* Change text color */
+            background-color: #64778b; /* Change background color */
+            
+          }
+          h1{
+            padding-top: 120px; 
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-image">
+                <img src="kayla.jpg" alt="Kayla Tizon">
+            </div>
+
+            <h1 style="color: white;">MY PORTFOLIO</h1>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="about.html">ABOUT ME</a>
+                    <br>
+                    <li><a href="interests.html">INTERESTS</a></li>
+                    
+                    <br>
+                    <li><a href="location.html">LOCATION</a></li>
+                    <br>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <br>
+                    <li><a href="#contact">CREDENTIAL</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <div class="intro">
+                <h1>HI THERE! I'M</h1>
+                <h1 class="name">KAYLA TIZON</h1>
+                <h3>from BSIT 3-2</h3>
+                <p><h2>I am IT Student in Cavite State University - Bacoor Campus</h2></p>
+            </div>
+            <div class="actions">
+                <a href="#contact" class="button">CONTACT ME <img src="pointing-down.png" alt="Pointing"></a>
+                
+            </div>
+        
+            <div class="social-links">
+                <a href="https://www.facebook.com/tizon.km"><img src="facebook (1).png" alt="Facebook"></a>
+                <a href="kaylatizon5@gmail.com"><img src="gmail.png" alt="Gmail"></a>
+                <a href="https://www.instagram.com/0993xx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="instagram.png" alt="Instagram"></a>
+               
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

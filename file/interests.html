@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>INTERESTS</title>
+<style>
+  body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(black1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns */
+    grid-gap: 20px;
+    width: 200%;
+    margin: 50px auto;
+    max-width: 1050px;
+    display: grid;
+    /* ... other styles ... */
+    row-gap: 50px; /* Space between rows */
+    column-gap: 100px; /* Space between columns */
+    
+  }
+
+  .grid-item {
+    background-color: #303738;
+    padding: 20px;
+    border-radius: 8px; /* Optional: Rounded corners */
+    
+  }
+
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* Center image and add space below */
+  }
+
+  .grid-item p {
+    margin: 5px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+  }
+
+  h1 {
+    margin-bottom: 30px;
+    margin: 70px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;
+  }
+  .top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: 30px;
+}
+.back-home-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  background-color: rgb(33, 33, 33);
+  color: aliceblue;
+}
+
+.back-home-button:hover {
+  background-color: #7b5d5d; /* Change background color on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+.back-home-button:hover {
+  border: 1px solid rgb(133, 28, 28);
+}
+.back-home-button:hover {
+  box-shadow: 2px 2px 5px rgba(201, 16, 16, 0.3);
+}
+.back-home-button:hover {
+  transform: scale(1.1); /* Increase size by 10% */
+}
+.back-home-button {
+  position: absolute; /* Or position: relative; if you want to position it relative to the container */
+  top: 70px; /* Adjust this value to move it vertically */
+  left: 600px; /* Adjust this value to move it horizontally */
+  /* Add other styles as needed */
+}
+.btn {
+  width: 150px; /* Adjust the width as needed */
+  height: 40px; /
+}
+.btn-1{
+  width: 150px; /* Adjust the width as needed */
+  height: 40px; 
+  padding: 10px;
+  margin: 16px;
+}
+ 
+</style>
+</head>
+<body>
+  
+  <a href="portfolio.html" class="back-home-link"><button class="back-home-button">BACK HOME</button></a>
+
+   <h1 style="color: white;">MY INTERETS!</h1>
+
+
+<div class="grid-container">
+  <a href="pets.html" class="grid-button">
+    <div class="grid-item">
+        <img src="pets.jpg" alt="Pets">
+        <button type="button" class="btn" style="background-color: rgb(19, 16, 19); color: white;">View my Pets</button>
+
+    </div>
+</a>
+
+  <a href="mymovies.html" class="grid-button">
+    <div class="grid-item">
+        <img src="movies.jpg" alt="Watching Movies">
+        <button type="button" class="btn" style="background-color: rgb(19, 16, 19); color: white;">View my fave Movies</button>
+
+    </div>
+</a>
+
+<a href="sketch.html" class="grid-button">
+  <div class="grid-item">
+      <img src="draw.jpg" alt="Watching Movies">
+      <button type="button" class="btn-1" style="background-color: rgb(19, 16, 19); color: white; ">View my Sketch</button>
+
+  </div>
+</a>
+
+<a href="guitar.html" class="grid-button">
+  <div class="grid-item">
+      <img src="guitar.jpg" alt="Watching Movies">
+      <button type="button" class="btn" style="background-color: rgb(19, 16, 19); color: white;">Guitar</button>
+
+  </div>
+</a>
+
+<a href="things.html" class="grid-button">
+  <div class="grid-item">
+      <img src="things.jpg" alt="Watching Movies">
+      <button type="button" class="btn" style="background-color: rgb(19, 16, 19); color: white;">Learning new things</button>
+
+  </div>
+</a>
+
+<a href="capture.html" class="grid-button">
+  <div class="grid-item">
+      <img src="photo.jpg" alt="Watching Movies">
+      <button type="button" class="btn" style="background-color: rgb(19, 16, 19); color: white;">Taking Photos</button>
+
+  </div>
+</a>
+
+</body>
+</html>
